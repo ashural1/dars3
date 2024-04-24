@@ -41,9 +41,7 @@ function App() {
   return (
     <div className="container">
       <div className="header">
-        <h1 class="mine">
-          <h1 class="titlee">Онлайн магазин</h1>
-        </h1>
+        <h1 class="mine"></h1>
       </div>
 
       <div className="filter-container">
@@ -112,9 +110,6 @@ function App() {
                 </p>
                 <p>
                   <b>Discount :</b> {discountPercentage}%
-                </p>
-                <p>
-                  <b>Rating:</b> {rating}
                 </p>
 
                 <div className="delete-button-container">

@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f9f9f9;
+  background-color: #0cb4b4;
 }
 
 .container {
@@ -44,8 +44,8 @@ body {
 }
 
 .productItem img {
-  width: 100%;
-  height: auto;
+  width: 378px;
+  height: 229px;
   object-fit: cover;
 }
 
@@ -67,7 +67,7 @@ body {
   margin-top: 10px;
 }
 
-.titlee{
+.titlee {
   color: rgb(22, 188, 210);
 }
 
@@ -78,6 +78,8 @@ body {
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  
 }
 
 .card-body {
@@ -100,19 +102,18 @@ body {
 }
 
 .del-btn {
-   width: 180px;
-    height: 60px;
-    cursor: pointer;
-    background: transparent;
-    border: 3px solid #000000;
-    outline: none;
-    transition: 1s ease-in-out;
-
+  width: 180px;
+  height: 60px;
+  cursor: pointer;
+  background: transparent;
+  border: 2px solid #000000;
+  border-radius: 25px;
+  cursor: pointer;
+  outline: none;
+  transition: 1s ease-in-out;
 }
 
-.delete-btn:hover {
-  background-color: #ff6666;
-}
+
 
 @media screen and (max-width: 768px) {
   .select-style {
